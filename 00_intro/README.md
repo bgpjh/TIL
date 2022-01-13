@@ -18,9 +18,10 @@
   + `git add 파일.확장자` : 특정 파일 올리기
   + `git status` : 올린것 확인
   + `git commit -m 'text'` : text 내용을 메세지로 올려준다
-
-
+  + `git push -u origin master` : commit 내용을 master에서 origin으로 push해서 git에 넣는다
+  + `git push` : github에 올려주세요!
 
 ### 부가기능
 
 + `git remote -v` : 등록된 GITURL을 확인하는 용도
++ `Ctrl Shift R` : git 강제 새로고침!
