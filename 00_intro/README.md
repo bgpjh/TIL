@@ -21,6 +21,11 @@
   + `git push -u origin master` : commit 내용을 master에서 origin으로 push해서 git에 넣는다
   + `git push` : github에 올려주세요!
 
+### pull/clone
+
++ `git clone GITURL` : 해당 GITURL을 복사해서 가져옴, 그냥 가져오기만 함
++ `git pull origin master` : 내가 가져온 이 코드를 직접 조지겠다.
+
 ### 부가기능
 
 + `git remote -v` : 등록된 GITURL을 확인하는 용도
