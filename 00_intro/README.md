@@ -30,3 +30,4 @@
 
 + `git remote -v` : 등록된 GITURL을 확인하는 용도
 + `Ctrl Shift R` : git 강제 새로고침!
++ `git config --global core.autocrlf true` : 개행 문자 통일
