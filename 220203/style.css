@@ -1,0 +1,45 @@
+/* 
+.e02_del{
+  color : #665590;
+}
+
+#ssafy{
+  color : gray
+}
+ */
+
+ /* div > span{
+   color :red;
+ } */
+
+ h2 {
+   color: darkviolet !important;
+ }
+
+ p{
+   color: orange;
+ }
+
+ .blue {
+   color: blue;
+ }
+
+ .green {
+   color: green;
+ }
+
+ #red {
+   color: red;
+ }
+
+ tr{
+   border-color: red;
+   border-style: solid;
+   border-width: 1px;
+ }
+
+ td{
+   border-color: blue;
+   border-style: solid;
+   border-width: 1px;
+ }

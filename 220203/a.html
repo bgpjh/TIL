@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MFHL</title>
+</head>
+<body>
+  <!-- <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>name</th>
+        <th>Major</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>박지하</td>
+        <td>전자공학</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>이성혁</td>
+        <td>기계공학</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>총계</td>
+        <td colspan="2">2명</td>
+      </tr>
+    </tfoot>
+    <caption>학생 명단</caption>
+  </table> -->
+  <header>
+    <a href="https://www.ssafy.com/">
+      <img src="" alt="main img" width="300">
+    </a>
+    <h1>SSAFY 학생 건강설문</h1>
+  </header>
+  <section>
+    <form action="#">
+    
+      <div class="input-group">
+        <label for="name">이름을 기재해주세요.</label>
+        <br>
+        <input type="text" name="name" id="name">
+      </div>
+    
+      <div class="input-group">
+        <label for="region">지역을 선택해주세요.</label>
+        <br>
+        <select name="region" id="region" required>
+          <option value="서울">서울</option>
+          <option value="대전">대전</option>
+          <option value="광주">광주</option>
+          <option value="구미">구미</option>
+          <option value="부울경">부울경</option>
+          <option value="강원" disabled>강원</option>
+        </select>
+      </div>
+
+      <div class="input-group">
+        <p>오늘의 체온을 선택해주세요.</p>
+        <input type="radio" name="body-heat" id="normal" value="normal" checked>
+        <label for="normal">37도 미만</label><br>
+        <input type="radio" name="body-heat" id="warning" value="warning">
+        <label for="warning">37도 이상</label>
+      </div>
+      <div class="input-group">
+        <label>최종 제출을 확인합니다.</label>
+        <input type="checkbox">
+      </div>
+    
+      <input type="submit" value="제출">
+    </form>
+  </section>
+
+  <footer>
+    Google 설문지를 통해 비밀번호를 제출하지 마시오.
+  </footer>
+  
+  <!-- 주석 라인
+  <h1>My First HTML</h1>
+  <p>본문 위치!</p>
+  <span>인라인 요소 위치!</span>
+  <a href="https://www.google.com/">구구 이동</a> -->
+</body>
+</html>
