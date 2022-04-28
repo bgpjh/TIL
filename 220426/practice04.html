@@ -37,11 +37,34 @@
 
     // solution 함수 완성
     function solution(K, N, M, chargers) {
+      let fuel = K
+      let index = 0
+      let cnt = 0
+      let C = chargers
+      C.push(N)
+      while (fuel > 0) {
+        fuel -= 1
+        index += 1
+        if (index === C[0] && index + fuel < C[1] && index + K >= C[1]) {
+          fuel = K
+          cnt += 1
+          C.shift()
+        } else if (index === C[0] && index + fuel >= C[1]) {
+          C.shift()
+        }
+        if (fuel >= 0 && index === N) {
+          break
+        } else if (fuel === 0 && index < N) {
+          cnt = 0
+          break
+        }
+      }
 
+      console.log(cnt)
     }
 
     for (const input of inputs) {
-      solution(...inputs)
+      solution(...input)
     }
   </script>
 </body>
